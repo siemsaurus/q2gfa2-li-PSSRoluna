@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Bebas+Neue&family=Dancing+Script:wght@600&family=Hanken+Grotesk&family=League+Spartan:wght@400;900&family=Lilita+One&family=Lobster&family=Permanent+Marker&family=Shadows+Into+Light&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: rgb(0, 0,0,0);
+    height: 7vh;
+}
+#text1{
+    display: inline-block;
+    float: left;
+    margin-top: 2vh;
+    margin-left: 50vh;
+    color: aliceblue;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2vw;
+}
+#text2{
+    display: inline-block;
+    float: right;
+    margin-top: 2vh;
+    margin-right: 50vh;
+    color: aliceblue;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2vw;
+}
+.bannertext{
+    display: inline-block;
+    color: aliceblue;
+    margin-top: 30vh;
+    margin-left: 30vw;
+    font-family: 'Lobster', sans-serif;
+    font-size: 3vw;
+}
+body{
+    background-image: url(images/space\ background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#gif1{
+    background-image: url(media/3617274364.gif);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    animation:gif1 60s linear 0s forwards;
+}
+@keyframes gif1{
+    from{
+    }
+    to{
+        transform: scale(12);
+    }
+}
+.gifs{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+#gif2{
+    background-image: url(media/3953935359.gif);
+    animation: gif2 17s linear infinite;
+    width: 150px;
+    height: 150px;
+    margin-top: 2vw;
+    z-index: -1;
+}
+#gif3{
+    background-image: url(media/1906894021.gif);
+    animation: gif3 22s linear infinite;
+    width: 550px;
+    height: 550px;
+    margin-top: -1vw;
+    z-index: -1;
+}
+#gif4{
+    background-image: url(media/35051383.gif);
+    animation: gif4 24s linear infinite;
+    width: 250px;
+    height: 250px;
+    margin-top: -1vw;
+    z-index: -1;
+}
+#gif5{
+    background-image: url(media/1113650913.gif);
+    animation: gif5 32s linear infinite;
+    width: 1250px;
+    height: 1250px;
+    margin-top: -6vw;
+    z-index: -1;
+}
+#gif6{
+    background-image: url(media/297145629.gif);
+    animation: gif6 45s linear infinite;
+    width: 1500px;
+    height: 1500px;
+    margin-top: -9vw;
+    z-index: -1;
+}
+#gif7{
+    background-image: url(media/2354488473.gif);
+    animation: gif7 60s linear infinite;
+    width: 2000px;
+    height: 2000px;
+    margin-top: -14vw;
+    z-index: -1;
+}
+@keyframes gif2{
+    from{
+        transform: translateX(100vw);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes gif3{
+    from{
+        transform: translateX(150vw);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes gif4{
+    from{
+        transform: translateX(150vw);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes gif5{
+    from{
+        transform: translateX(150vw);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes gif6{
+    from{
+        transform: translateX(150vw);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+@keyframes gif7{
+    from{
+        transform: translateX(150vw);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}

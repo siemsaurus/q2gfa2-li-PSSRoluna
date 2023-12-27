@@ -63,8 +63,8 @@ body{
 #gif2{
     background-image: url(media/3953935359.gif);
     animation: gif2 17s linear infinite;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     margin-top: -2vw;
     z-index: -1;
 }

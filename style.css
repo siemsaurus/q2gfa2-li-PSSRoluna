@@ -45,12 +45,13 @@ body{
     width: 250px;
     height: 250px;
     animation:gif1 60s linear 0s forwards;
+    margin-top: -1vw;
 }
 @keyframes gif1{
     from{
     }
     to{
-        transform: scale(12);
+        transform: scale(7);
     }
 }
 .gifs{
@@ -64,15 +65,15 @@ body{
     animation: gif2 17s linear infinite;
     width: 150px;
     height: 150px;
-    margin-top: 2vw;
+    margin-top: -2vw;
     z-index: -1;
 }
 #gif3{
     background-image: url(media/1906894021.gif);
     animation: gif3 22s linear infinite;
-    width: 550px;
-    height: 550px;
-    margin-top: -1vw;
+    width: 350px;
+    height: 350px;
+    margin-top: -3vw;
     z-index: -1;
 }
 #gif4{
@@ -80,31 +81,31 @@ body{
     animation: gif4 24s linear infinite;
     width: 250px;
     height: 250px;
-    margin-top: -1vw;
+    margin-top: -3vw;
     z-index: -1;
 }
 #gif5{
     background-image: url(media/1113650913.gif);
     animation: gif5 32s linear infinite;
-    width: 1250px;
-    height: 1250px;
-    margin-top: -6vw;
+    width: 950px;
+    height: 950px;
+    margin-top: -8vw;
     z-index: -1;
 }
 #gif6{
     background-image: url(media/297145629.gif);
     animation: gif6 45s linear infinite;
-    width: 1500px;
-    height: 1500px;
-    margin-top: -9vw;
+    width: 1250px;
+    height: 1250px;
+    margin-top: -11vw;
     z-index: -1;
 }
 #gif7{
     background-image: url(media/2354488473.gif);
     animation: gif7 60s linear infinite;
-    width: 2000px;
-    height: 2000px;
-    margin-top: -14vw;
+    width: 1500px;
+    height: 1500px;
+    margin-top: -16vw;
     z-index: -1;
 }
 @keyframes gif2{

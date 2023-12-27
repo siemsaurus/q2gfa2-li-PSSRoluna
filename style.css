@@ -45,13 +45,13 @@ body{
     width: 250px;
     height: 250px;
     animation:gif1 60s linear 0s forwards;
-    margin-top: -5vw;
+    margin-top: -7vw;
 }
 @keyframes gif1{
     from{
     }
     to{
-        transform: scale(4);
+        transform: scale(2);
     }
 }
 .gifs{
@@ -63,8 +63,8 @@ body{
 #gif2{
     background-image: url(media/3953935359.gif);
     animation: gif2 17s linear infinite;
-    width: 50px;
-    height: 50px;
+    width: 10px;
+    height: 10px;
     margin-top: -2vw;
     z-index: -1;
 }

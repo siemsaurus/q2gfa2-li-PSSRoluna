@@ -97,7 +97,7 @@ body{
     animation: gif6 45s linear infinite;
     width: 450px;
     height: 450px;
-    margin-top: -22vw;
+    margin-top: -20vw;
     z-index: -1;
 }
 #gif7{
@@ -105,7 +105,7 @@ body{
     animation: gif7 60s linear infinite;
     width: 750px;
     height: 750px;
-    margin-top: -26vw;
+    margin-top: -25vw;
     z-index: -1;
 }
 @keyframes gif2{

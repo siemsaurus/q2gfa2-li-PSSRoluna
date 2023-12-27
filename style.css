@@ -51,7 +51,7 @@ body{
     from{
     }
     to{
-        transform: scale(2);
+        transform: scale(3);
     }
 }
 .gifs{
@@ -63,8 +63,8 @@ body{
 #gif2{
     background-image: url(media/3953935359.gif);
     animation: gif2 17s linear infinite;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     margin-top: -2vw;
     z-index: -1;
 }
@@ -87,25 +87,25 @@ body{
 #gif5{
     background-image: url(media/1113650913.gif);
     animation: gif5 32s linear infinite;
-    width: 450px;
-    height: 450px;
-    margin-top: -8vw;
+    width: 250px;
+    height: 250px;
+    margin-top: -10vw;
     z-index: -1;
 }
 #gif6{
     background-image: url(media/297145629.gif);
     animation: gif6 45s linear infinite;
-    width: 650px;
-    height: 650px;
-    margin-top: -17vw;
+    width: 450px;
+    height: 450px;
+    margin-top: -22vw;
     z-index: -1;
 }
 #gif7{
     background-image: url(media/2354488473.gif);
     animation: gif7 60s linear infinite;
-    width: 950px;
-    height: 950px;
-    margin-top: -23vw;
+    width: 750px;
+    height: 750px;
+    margin-top: -26vw;
     z-index: -1;
 }
 @keyframes gif2{
